@@ -322,7 +322,7 @@ export default function Hero() {
             {/* Profile Photo */}
             <div style={{ position: 'absolute', top: 0, right: 0, width: '60%', height: '100vh', zIndex: 2, WebkitMaskImage: 'linear-gradient(to left, black 0%, transparent 100%)', maskImage: 'linear-gradient(to left, black 0%, transparent 100%)' }}>
                 <img
-                    src={`${import.meta.env.BASE_URL}${theme === 'dark-black' ? 'black.jpeg' : theme === 'obsidian-gold' ? 'gold.jpeg' : theme === 'forest-emerald' ? 'green.jpeg' : 'profile.jpeg'}`}
+                    src={`${import.meta.env.BASE_URL}${theme === 'dark-black' ? '/black.jpeg' : theme === 'obsidian-gold' ? '/gold.jpeg' : theme === 'forest-emerald' ? '/green.jpeg' : '/profile.jpeg'}`}
                     alt="Kunal Chaudhari"
                     className="hero-photo"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
